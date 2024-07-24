@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid Page</title>
+    <style>
+        .container {
+            display: grid;
+            gap: 1rem;
+            grid-template-areas: 
+            'navbar navbar navbar navbar'
+             'side sec sec sec ' 
+             'foot foot foot foot' 
+            ;
+
+
+
+        }
+
+        .item {
+            background-color: chartreuse;
+            border: 1px dotted gainsboro;
+            padding: 12px 3px;
+        }
+
+        nav {
+            grid-area: navbar;
+        }
+
+        section {
+            grid-area: sec;
+        }
+
+        aside {
+            grid-area: side;
+        }
+        footer{
+            grid-area: foot;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <nav class="item">
+            <a href="http://" target="_blank" rel="noopener noreferrer">Home</a>
+            <a href="http://" target="_blank" rel="noopener noreferrer">Home</a>
+            <a href="http://" target="_blank" rel="noopener noreferrer">Home</a>
+            <a href="http://" target="_blank" rel="noopener noreferrer">Home</a>
+        </nav>
+        <section class="item">
+            Section Lorem, ipsum dolor sit amet consectetur adipisicing elit. Earum, totam.
+        </section>
+        <aside class="item">
+            Asidebar Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, voluptates.
+        </aside>
+        <footer class="item">
+            website by jamaal. &copy; 2022.
+        </footer>
+    </div>
+</body>
+
+</html>

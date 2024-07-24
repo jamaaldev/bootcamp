@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.draw{
+    text-align: center;
+}
+
+.game_container {
+    max-width: 620px;
+    margin: auto;
+    margin-top: 120px;
+    text-align: end;
+}
+.game_Player{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+.bot_score,.player_score{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.box_container{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+.box{
+    width: 200px;
+    height: 100px;
+    object-fit: cover;
+    background-color: #16013c;
+}
+
+.start{
+    margin-top: 15px;
+}

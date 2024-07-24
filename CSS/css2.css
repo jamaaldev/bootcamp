@@ -1,0 +1,67 @@
+/* 
+background and border
+*/
+body{
+    background-color: azure;
+}
+/* background image */
+.img {
+    background-image: url(../HTML/image/Yemen__77192.webp);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-position: center;
+    background-size: contain;
+    width: 400px;
+    height: 200px;
+    background-color: cadetblue;
+}
+
+.yemen {
+    color: black;
+}
+
+.yemen_p {
+    color: black;
+}
+
+/* border */
+.myborder{
+    border-style: dotted;
+    border-radius: 20px;
+    font-size: 24px;
+
+}
+
+.profile{
+    width: 200px;
+    border-style: dotted;
+    text-align: center;
+    padding: 5px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.profile_img{
+    width: 100px;
+}
+
+.per{
+    border-top-style: dotted;
+    width: 20%;
+}
+
+.button{
+    border: dotted;
+    background-color: cadetblue;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    cursor: pointer;
+   font-size: 24px;
+
+}
+a{
+    text-decoration: none;
+color: white;
+}

@@ -1,0 +1,114 @@
+
+@media only screen and (min-width: 1000px) {
+    body {
+      background-color: green;
+    }
+    h1{
+        color: #8bc34a;
+        font-size: 36px;
+    }
+    h1::after{
+        content: '';
+        background: url(../HTML/image/justit.gif);
+        display: inline-block;
+        width: 54px;
+        height: 30px;
+        background-repeat: no-repeat;
+        background-size: contain;
+        position: absolute;
+        top: 22px;
+    }
+    .px{
+        width: 300px;
+        height: 300px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .perce{
+        width: 300px;
+        height: 300px;
+        margin-left: auto;
+        margin-right: auto;
+     
+    }
+    /* attribute selector */
+    [title="first"]{
+        background: aliceblue;
+    font-size: 36px;
+    color: coral;
+    text-align: center;
+    }
+    /* class selector */
+    .second{
+        background: aliceblue;
+    font-size: 36px;
+    color: cornflowerblue;
+    text-align: center;
+    }
+    /* ID Selector */
+    #thirth{
+        background: aliceblue;
+        font-size: 36px;
+        color: crimson;
+        text-align: center;
+    }
+  }
+@media only screen and (max-width: 999px) {
+    body {
+      background-color: lightskyblue;
+    }
+    .px{
+        display: block;
+        width: 500px;
+        height: 500px;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 50%;
+    }
+    .perce{
+        display: block;
+        width: 50%;
+        height: 50%;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 100%;
+    }
+    h1{
+        color: white;
+        font-size: 10vw;
+    }
+    h1::after{
+        content: '';
+        background: url(../HTML/image/news.gif);
+        display: inline-block;
+        width: 90px;
+        height: 30px;
+        background-repeat: no-repeat;
+        background-size: contain;
+        position: absolute;
+        /* top: 22px; */
+    }
+        /* attribute selector */
+        [title="first"]{
+            background: aliceblue;
+        font-size: 36px;
+        color: rgb(115, 146, 4);
+        text-align: center;
+        }
+        /* class selector */
+        .second{
+            background: aliceblue;
+        font-size: 36px;
+        color: rgb(237, 100, 225);
+        text-align: center;
+        }
+        /* ID Selector */
+        #thirth{
+            background: aliceblue;
+            font-size: 36px;
+            color: rgb(20, 220, 97);
+            text-align: center;
+        }
+  }
+
+  

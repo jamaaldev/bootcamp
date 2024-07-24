@@ -1,0 +1,69 @@
+header{
+    background-color: #302252;
+}
+.cover{
+    background-image: url(../HTML/image/tim-mossholder-D7JeGs2-SCE-unsplash.jpg);
+   background-size:cover;
+   background-repeat: no-repeat;
+   background-position: center;
+   padding: 180px;
+}
+.ver{
+    list-style-type: none;
+    background: blueviolet;
+    overflow: hidden;
+    padding: 10px;
+    position: sticky;
+    top: 0;
+    margin: 0;
+}
+
+.ver li{
+    float: left;
+}
+
+.ver li a{
+    text-decoration: none;
+    padding: 15px;
+    font-size: 18px;
+    color: rgb(255 196 119);
+
+}
+.ver li a:hover{
+    background-color: #302252;
+    
+}
+
+.img img{
+    display: block;
+}
+/* end ver */
+
+
+.hor{
+    list-style-type: none;
+    background: blueviolet;
+    overflow: hidden;
+    padding: 0px;
+    width: 180px;
+    text-align: left;
+}
+.hor li{
+    padding: 10px;
+}
+.hor li a{
+    text-decoration: none;
+    font-size: 18px;
+    color: rgb(255 196 119);
+}
+
+.hor li:hover{
+    background-color: #302252;
+   
+    
+}
+
+/* container */
+.container{
+    display: flex;
+}

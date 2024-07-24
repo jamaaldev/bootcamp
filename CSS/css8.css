@@ -1,0 +1,203 @@
+.loadin1 {
+    width: 100px;
+    height: 30px;
+    border-radius: 30px;
+    background-color: #8bc34a;
+    animation-name: loading;
+    animation-duration: 3s;
+    animation-timing-function: ease-in-out;
+    animation-direction: alternate;
+    animation-delay: 3s;
+    animation-iteration-count: infinite;
+}
+
+.loadin2 {
+    width: 100px;
+    height: 30px;
+    border-radius: 30px;
+    background-color: #8bc34a;
+    animation-name: loading;
+    animation-duration: 3s;
+    animation-timing-function: ease-in;
+    animation-iteration-count: infinite;
+}
+.loadin3 {
+    width: 100px;
+    height: 100px;
+    border-radius: 30px;
+    background-color: #8bc34a;
+    animation-name: loading3;
+    animation-duration: 3s;
+    animation-timing-function: ease-in;
+    animation-iteration-count: infinite;
+}
+
+@keyframes loading {
+    0% {
+        width: 120px;
+        background-color: brown;
+
+    }
+
+    10% {
+        width: 230px;
+        background-color: cadetblue;
+    }
+
+    20% {
+        width: 350px;
+        background-color: chocolate;
+    }
+
+    30% {
+        width: 470px;
+        background-color: crimson;
+    }
+
+    40% {
+        width: 590px;
+    }
+
+    50% {
+        width: 650px;
+    }
+
+    60% {
+        width: 760px;
+    }
+
+    70% {
+        width: 870px;
+    }
+
+    80% {
+        width: 980px;
+    }
+
+    90% {
+        width: 1010px;
+    }
+
+    100% {
+        width: 1190px;
+    }
+}
+@keyframes loading3 {
+    0% {
+       
+        background-color: brown;
+        border-radius: 0%;
+
+    }
+
+    10% {
+       
+        background-color: cadetblue;
+        border-radius: 10%;
+    }
+
+    20% {
+        
+        background-color: chocolate;
+        border-radius: 20%;
+    }
+
+    30% {
+        
+        background-color: crimson;
+        border-radius: 30%;
+    }
+
+    40% {
+        background-color: violet;
+
+        border-radius: 40%;
+    }
+
+    50% {
+        background-color: chartreuse;
+
+        border-radius: 50%;
+    }
+
+    60% {
+        background-color: lightpink;
+
+        border-radius: 40%;
+    }
+
+    70% {
+        
+        border-radius: 30%;
+    }
+
+    80% {
+        
+        border-radius: 20%;
+    }
+
+    90% {
+        
+        border-radius: 10%;
+    }
+
+    100% {
+        
+        border-radius: 0%;
+    }
+}
+
+/* tranform */
+
+.transf{
+    margin: 20px 15px;
+    
+}
+
+.transf a{
+    display: inline-block;
+    background: burlywood;
+    padding: 10px 30px;
+    border-radius: 3px;
+    color: white;
+    text-decoration: none;
+    transform: rotate(330deg);
+    
+}
+.transf a:hover{
+    /* animation: roll 3s 1; */
+    
+    display: inline-block;
+    background: burlywood;
+    padding: 10px 30px;
+    border-radius: 3px;
+    color: white;
+    text-decoration: none;
+    transform: rotate(0deg);
+}
+
+@keyframes roll {
+    0% {
+      transform: rotate(0);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+
+
+  /* perspective */
+
+  .cover{
+    width: 200px;
+    height: 200px;
+    border: 2px solid grey;
+  }
+
+  .content{
+    width: 200px;
+    height: 200px;
+    background-color: #8bc34a;
+    transform:  perspective(200px) translate3d(0,0,-100px);
+  }
+ 

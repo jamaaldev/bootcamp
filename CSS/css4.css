@@ -1,0 +1,92 @@
+
+img{
+ position: absolute;
+ z-index: -1;
+}
+
+
+.div{
+    border:  1px red solid;
+    width: 200px;
+    height: 150px;
+    margin: 20px;
+}
+.div1{
+    background-color: burlywood;
+    position: absolute;
+    z-index: 1;
+    left: 0;
+    top: 50px;
+}
+.div2{
+    background-color: goldenrod;
+    position: absolute;
+    z-index: 2;
+    left: 100px;
+    top: 120px;
+}
+.div3{
+    background-color: paleturquoise;
+    position: absolute;
+    z-index: 3;
+    left: 200px;
+    top: 200px;
+}
+p{
+    color: white;
+    font-size: 24px;
+}
+.main_div{
+    display: flex;
+    bottom: 0;
+    background-color: green;
+   padding: 20px;
+}
+.main_div .flexdiv1{
+background-color: brown;
+padding: 20px;
+}
+.main_div .flexdiv2{
+background-color: burlywood;
+padding: 20px;
+}
+.main_div .flexdiv3{
+background-color: olivedrab;
+padding: 20px;
+}
+.div{
+    width: 100%;
+}
+.jm{
+    font-size: 16px;
+    background-color: #3f51b5;
+}
+.rem{
+    font-size: 2rem;
+    background-color: #3f51b5;
+
+}
+.em{
+    font-size: 2em;
+    background-color: #3f51b5;
+
+}
+.px{
+    font-size: 32px;
+    background-color: #3f51b5;
+
+}
+.perc{
+    font-size: 100%;
+    background-color: #3f51b5;
+
+}
+.vw{
+    background-color: blueviolet;
+    font-size: 10vw;
+
+}
+.vh{
+    background-color: brown;
+    font-size: 10vh;
+}

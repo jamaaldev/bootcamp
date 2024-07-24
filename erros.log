@@ -1,0 +1,30 @@
+CRITICAL:root:this is the critical
+ERROR:root:this is the error
+WARNING:root:this is the warning
+INFO:root:this is the info
+DEBUG:root:this is the debug
+CRITICAL : 2023-02-23 16:09:27,557 - this is the critical
+ERROR : 2023-02-23 16:09:27,558 - this is the error
+WARNING : 2023-02-23 16:09:27,558 - this is the warning
+INFO : 2023-02-23 16:09:27,558 - this is the info
+DEBUG : 2023-02-23 16:09:27,558 - this is the debug
+CRITICAL : 2023-02-23 18:07:07,100 - this is the critical
+ERROR : 2023-02-23 18:07:07,100 - this is the error
+WARNING : 2023-02-23 18:07:07,100 - this is the warning
+INFO : 2023-02-23 18:07:07,100 - this is the info
+DEBUG : 2023-02-23 18:07:07,100 - this is the debug
+CRITICAL : 2023-02-23 18:07:20,501 - this is the critical
+ERROR : 2023-02-23 18:07:20,504 - this is the error
+WARNING : 2023-02-23 18:07:20,504 - this is the warning
+INFO : 2023-02-23 18:07:20,504 - this is the info
+DEBUG : 2023-02-23 18:07:20,504 - this is the debug
+CRITICAL : 2023-02-23 18:08:14,724 - this is the critical
+ERROR : 2023-02-23 18:08:14,724 - this is the error
+WARNING : 2023-02-23 18:08:14,725 - this is the warning
+INFO : 2023-02-23 18:08:14,725 - this is the info
+DEBUG : 2023-02-23 18:08:14,725 - this is the debug
+CRITICAL : 2023-02-23 18:08:41,761 - this is the critical
+ERROR : 2023-02-23 18:08:41,762 - this is the error
+WARNING : 2023-02-23 18:08:41,762 - this is the warning
+INFO : 2023-02-23 18:08:41,762 - this is the info
+DEBUG : 2023-02-23 18:08:41,762 - this is the debug

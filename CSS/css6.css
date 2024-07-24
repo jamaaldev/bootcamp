@@ -1,0 +1,32 @@
+.container{
+    display: flex;
+    /* justify-content: space-evenly; */
+    /* flex-wrap: wrap; */
+    border: 1px solid brown;
+width: 600px;
+height: 300px;
+}
+
+.item{
+    background: antiquewhite;
+    /* text-align: center; */
+    width: 200px;
+    height: 100px;
+    margin-bottom: 20px;
+}
+
+#item-2{
+    background-color: brown;
+    /* order: 2; */
+}
+#item-3{
+    background-color: cadetblue;
+    /* flex-grow: 1; */
+    /* order: 1; */
+    /* flex-shrink: 1; */
+}
+#item-4{
+    background-color: cornflowerblue;
+    align-self: center;
+
+}

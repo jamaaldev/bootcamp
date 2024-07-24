@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        .header{
+          background-color: cadetblue;
+
+        }
+        #med,footer{
+            text-align: center;
+        }
+        .article,section{
+            background-color: burlywood;
+            text-align: center;
+        }
+        aside{
+            background-color: brown;
+            color: white;
+            text-align: center;
+        }
+    </style>
+    <header class="header"  align="center">
+        <h1>JustIT Bootcamp</h1>
+        <p>What is HTML - hypertext Markup Language</p>
+        
+        <nav>
+            <a href="/HTML1.html">HTML 1 Page</a>
+            <a href="/HTML2.html">HTML 2 Page</a>
+            <a href="/HTML3.html">HTML 3 Page</a>
+            <a href="/HTML4.html">HTML 4 Page</a>
+        </nav>
+    </header>
+
+    <article class="article">
+        <h1>this is a article block</h1>
+    </article>
+    <section>
+        <header>this is section block</header>
+        <p>What is HTML - hypertext Markup Language</p>
+    </section>
+ <aside>
+    <p>usually the aside is used for sidebar</p>
+ </aside>
+ <figure id="med">
+
+    <img src="./image/Cartoonify.png" width="150" height="150" title="avator" alt="">
+    <figcaption>this is a jamaal</figcaption>
+    <form action="login.html">
+        <div>
+            <label for="firstname">FirstName</label>
+            <input type="text" name="firstname">
+        </div>
+        <div>
+            <label for="lastname">LastName</label>
+            <input type="text" name="lastname">
+        </div>
+        <div>
+            <label for="email">Email</label>
+            <input type="email" name="email">
+        </div>
+        <div>
+            <label for="date_of_birth">Date of Birth</label>
+            <input type="date" name="date_of_birth">
+        </div>
+        <div>
+            <label for="password">Password</label>
+            <input type="password" name="password" >
+        </div>
+        <div>
+            <label for="submit">Submit</label>
+            <input type="submit" name="submit" value="Click To Save">
+        </div>
+    </form>
+ </figure>
+ <time>4:30 PM</time>
+ <table>
+    <form action="login.html">
+    <tr>
+        <td> <label for="">FirstName</label> </td>
+        <td><input required type="text" placeholder="type your firstname"></td>
+    </tr>
+    <tr>
+        <td><label for="lastname">LastName</label></td>
+        <td><input type="text" name="lastname" placeholder="type your lastname"></td>
+    </tr>
+    <tr>
+        <td><label for="email">Email</label></td>
+        <td> <input type="email" name="email" placeholder="type your email"></td>
+    </tr>
+    <tr>
+        <td><label for="date_of_birth">Date of Birth</label></td>
+        <td> <input type="date" name="date_of_birth"></td>
+    </tr>
+    <tr>
+        <td><label for="password">Password</label></td>
+        <td> <input type="password" name="password" placeholder="type your password"></td>
+    </tr>
+    <tr>
+        <td><label for="phone">Phone Number</label></td>
+        <td> <input type="tel" name="phone" placeholder="type your PhoneN umber"></td>
+    </tr>
+    <tr>
+        <td><label for="picture">Uploud Picture</label></td>
+        <td> <input type="file" name="picture"></td>
+    </tr>
+    <tr>
+        <td><label for="reset">Reset Clear</label></td>
+        <td> <input type="reset" name="reset" value="Clear Details"></td>
+    </tr>
+    <tr>
+        <td><label for="submit">Submit</label></td>
+        <td> <input type="submit" value="Click To Save"></td>
+    </tr>
+    <tr>
+        <td><label for="submit">Click Image to Submit</label></td>
+        <td> <input type="image"  src="./image/lemon.png" width="100" height="100" onclick="submit();"></td>
+    </tr>
+</form>
+ </table>
+    <footer>
+        This is a JamaalMahamed CopyRgiht &copy;
+    </footer>
+
+    
+</body>
+</html>
+

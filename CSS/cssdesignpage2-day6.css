@@ -1,0 +1,44 @@
+header{
+    display: flex;
+    background-color: #009688;
+    height: 70px;
+    align-items: center;
+    justify-content: space-between;
+}
+header nav ul {
+display: flex;
+
+}
+header nav ul li {
+list-style-type: none;
+margin-right: 20px;
+}
+header nav ul li a {
+text-decoration: none;
+color: #ff9800;
+}
+
+header img{
+    width: 80px;
+}
+
+.container{
+    background-image: url(../HTML/image/Night-view-Dhaka-Bangladesh.webp);
+    background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+width: 100%;
+height: 300px;
+}
+footer{
+    display: flex;
+    width: 100%;
+    height: 200px;
+    justify-content: space-evenly;
+    background: #9e9e9e;
+    align-items: center;
+}
+footer img{
+    width: 200px;
+    height: 120px;
+}
